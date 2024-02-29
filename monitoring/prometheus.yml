@@ -10,4 +10,4 @@ scrape_configs:
     scrape_interval: 5s 
     metrics_path: /monitoring/prometheus/metrics 
     static_configs:
-      - targets: ['ex-cc-prediction-f0255330b758.herokuapp.com'] 
+      - targets: ['cardio-prediction-production.up.railway.app'] 
